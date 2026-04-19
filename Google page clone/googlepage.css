@@ -1,0 +1,41 @@
+
+
+
+body {
+    margin-top: 200px;
+}
+
+.item {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputcls {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: none;
+    border-radius: 5px;
+}
+
+.container {
+    text-align: center;
+}
+
+button { 
+    display: inline;
+    background-color: rgb(226, 216, 216);
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    border: 1px solid black;
+}
