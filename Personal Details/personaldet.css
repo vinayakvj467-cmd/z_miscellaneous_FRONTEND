@@ -1,0 +1,12 @@
+
+body {
+    margin: 20px;
+    text-align: center;
+}
+
+.proimg {
+    height: 250px;
+    width: 250px;
+    border: 5px solid pink;
+    border-radius: 50%;
+}
