@@ -1,0 +1,22 @@
+body {
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background-image: url("../images/universe.png");
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding-top: 100px;
+    margin: 50px 100px;
+}
+
+.btn { 
+    border: 1px solid pink;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    color: black;
+}
