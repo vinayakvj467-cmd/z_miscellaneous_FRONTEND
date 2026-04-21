@@ -1,0 +1,141 @@
+body {
+    margin: 20px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+h1, h2, h3, p, span {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 3px 12px;  
+    margin: 5px 0px; 
+}
+
+.proimg {
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border: 4px solid pink;
+    border-radius: 50%;
+}
+
+.headings {
+    background-color: tomato;
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px white;
+}
+
+.hover-text {
+    border-bottom: 1px solid black;
+}
+
+.gift-wedding1 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 30px;
+}
+
+.gift-wedding2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 30px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.gift-img {
+    padding: 5px;
+    background-image: url("../images/gift_card.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    margin: 30px;
+}
+
+.reaction-gif {
+    padding: 3px;
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+}
+
+#wedding_gift:hover {
+    background-image: url("../images/1_best_moment.jpg");
+}
+
+#wedding_gift_r {
+    background-image: url("../images/1.jpg");
+}
+
+#barat_gift:hover {
+    background-image: url("../images/2_barat_moment1.JPG");
+}
+
+#barat_gift_r {
+    background-image: url("../images/2.jpg");
+}
+
+#milni_gift:hover {
+    background-image: url("../images/3_mehendi_moment.jpg");
+}
+
+#milni_gift_r {
+    background-image: url("../images/3.jpg");
+}
+
+#jaimala_gift:hover {
+    background-image: url("../images/4_jaimala_moment.jpg");
+}
+
+#jaimala_gift_r {
+    background-image: url("../images/4.jpg");
+}
+
+#mandap_gift:hover {
+    background-image: url("../images/5_mandap_moment1.JPG");
+}
+
+#mandap_gift_r {
+    background-image: url("../images/5.jpg");
+}
+
+#kanyadan_gift:hover {
+    background-image: url("../images/6_kanyadan_moment.jpg.jpg");
+}
+
+#kanyadan_gift_r {
+    background-image: url("../images/6.jpg");
+}
+
+#saptapadi_gift:hover {
+    background-image: url("../images/7_saptapadi_moment1.JPG");
+}
+
+#saptapadi_gift_r {
+    background-image: url("../images/7.jpg");
+}
+
+#sindoor_gift:hover {
+    background-image: url("../images/8_Sindoor_moment1.JPG");
+}
+
+#sindoor_gift_r {
+    background-image: url("../images/8.jpg");
+}
+
+#bidai_gift:hover {
+    background-image: url("../images/9_Bidai_moment1.JPG");
+}
+
+#bidai_gift_r {
+    background-image: url("../images/9.jpg");
+}
