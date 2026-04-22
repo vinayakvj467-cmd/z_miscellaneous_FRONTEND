@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./src/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1 class="heading">Calculator</h1>
+        <div>
+            <h2 id="disp-el" class="display">0</h2>
+            <div class="wrapper">
+                <div class="container">
+                    <div>
+                        <button onclick="number(1)">1</button>
+                        <button onclick="number(2)">2</button>
+                        <button onclick="number(3)">3</button>
+                    </div>
+                    <div>
+                        <button onclick="number(4)">4</button>
+                        <button onclick="number(5)">5</button>
+                        <button onclick="number(6)">6</button>
+                    </div>
+                    <div>
+                        <button onclick="number(7)">7</button>
+                        <button onclick="number(8)">8</button>
+                        <button onclick="number(9)">9</button>
+                    </div>
+                    <div>
+                        <button onclick="number(0)">0</button>
+                        <button onclick="number('.')">.</button>
+                        <button onclick="operation('=')">=</button>
+                    </div>
+                    <div>
+                        <button onclick="number('00')">00</button>
+                        <button onclick="square()">sq()</button>
+                        <button onclick="cube()">cu()</button>
+                    </div>
+                </div>
+                <div class="container">
+                    <button onclick="cler()">clr</button>
+                    <button onclick="operation('+')">+</button>
+                    <button onclick="operation('-')">-</button>
+                    <button onclick="operation('*')">*</button>
+                    <button>/</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./src/index.js"></script>
+</body>
+
+</html>
