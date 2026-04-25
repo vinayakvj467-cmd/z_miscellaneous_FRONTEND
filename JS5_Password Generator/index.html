@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./src/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <h1>Generate password</h1>
+            <div class="in-wr">
+                <h3 class="mr">Length</h3>
+                <input id="input-char" class="in" type="number" placeholder="Specify length in numbers">
+            </div>
+            <div class="i-wr">
+                <h3 class="mr">Special Characters</h3>
+                <input id="rd-in" class="mr clr-or" type="radio">
+                <p class="mr">(!@#$%^&*()_-+{}[]?)</p>
+            </div>
+            <button class="btn" onclick="generate()">Generate</button>
+            <div class="result">
+                <div class="wr">
+                    <h1 class="h-res">First password</h1>
+                    <p id="res1" class="p-res" onclick="copyText2()">liudbhcivhiehvsbre</p>
+                </div>
+                <div class="wr">
+                    <h1 class="h-res">Second password</h1>
+                    <p id="res2" class="p-res" onclick="copyText1()">iuasghciuehoewjvioh</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup">
+        <p id="popup"></p>
+    </div>
+    <script src="./src/index.js"></script>
+</body>
+
+</html>
