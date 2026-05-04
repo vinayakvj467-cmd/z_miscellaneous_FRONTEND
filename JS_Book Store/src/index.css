@@ -1,0 +1,25 @@
+body {
+    background-color: tomato;
+}
+
+.container {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px black;
+    margin: 10px;
+    padding: 5px;
+    background-color: crimson;
+    color: black;
+}
