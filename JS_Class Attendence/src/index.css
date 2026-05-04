@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+
+.in-class {
+    width: 700px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 0px solid black;
+    box-shadow: 0px 0px 4px black;
+}
+
+.container {
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0px 0px 4px black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+    box-shadow: 2px 2px black;
+}
+
+.card {
+    text-align: start;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid orangered;
+    background-color: tomato;
+    box-shadow: 1px 1px black;
+    border-radius: 10px;
+}
